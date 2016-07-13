@@ -1,11 +1,11 @@
-(kicad_pcb (version 4) (host pcbnew 4.0.1-stable)
+(kicad_pcb (version 4) (host pcbnew 4.0.2-stable)
 
   (general
     (links 24)
     (no_connects 0)
-    (area 99.924999 54.924999 195.075001 100.075001)
+    (area 99.924999 54.924999 200.075001 105.075001)
     (thickness 1.6)
-    (drawings 4)
+    (drawings 6)
     (tracks 65)
     (zones 0)
     (modules 18)
@@ -938,9 +938,11 @@
       (xy -0.136593 -10.118975) (xy 0 -10.119091) (xy 0.374636 -10.115306)) (layer F.SilkS) (width 0.01))
   )
 
+  (gr_line (start 100 105) (end 100 100) (angle 90) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 200 105) (end 100 105) (angle 90) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 200 55) (end 200 105) (angle 90) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 195 55) (end 200 55) (angle 90) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 100 100) (end 100 55) (angle 90) (layer Edge.Cuts) (width 0.15))
-  (gr_line (start 195 100) (end 100 100) (angle 90) (layer Edge.Cuts) (width 0.15))
-  (gr_line (start 195 55) (end 195 100) (angle 90) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 195 55) (end 100 55) (angle 90) (layer Edge.Cuts) (width 0.15))
 
   (segment (start 129.54 70.104) (end 135.128 64.516) (width 0.25) (layer B.Cu) (net 1) (status 80000))
